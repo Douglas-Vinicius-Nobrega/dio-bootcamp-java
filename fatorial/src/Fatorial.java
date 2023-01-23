@@ -4,16 +4,14 @@ public class Fatorial {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int fatorial = 5;
-        int count = 5;
+        int multiplicador = 1;
 
         System.out.println("Digite o número: ");
-        int numero = scan.nextInt();
+        int fatorial = scan.nextInt();
 
-        for (int i = 0; i <= fatorial; i++) {
-            int resultado = numero * count;
-            count--;
-            System.out.println("O fatorial do número " + numero + " é : " + resultado);
+        for (int i = fatorial; i >= 1; i--) {
+            multiplicador = multiplicador * i;
         }
+        System.out.println("O fatorial do número " + fatorial + " é : " + multiplicador);
     }
 }
