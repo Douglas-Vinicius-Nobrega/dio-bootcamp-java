@@ -1,0 +1,6 @@
+Up - subir na hieranquia de classes 
+Upcast - Estou transformando o B em A , pegando o filho B transformando na mãe A
+A a = new B ();
+
+Down - descer na hierarquia de classe, agora eu estou pegadno a mãe e estou transformando no filho
+B a = (B)new A();

@@ -1,0 +1,15 @@
+Polimorfismo:
+
+"A mesma ação, se comportando difente"
+
+Temos um entetidade chamado pagando, e ele tem 4 filhos:
+
+boleto, credito, debito, pix.
+
+Ele pode se comportar diferentes formas, dependendo do tipo de pagamento
+
+Isso trás uma grande flexibilidade para o código
+
+Sobrescrita, outro conceito relativo aos métodos.
+
+"A mesma ação, podendo se comportar diferente"

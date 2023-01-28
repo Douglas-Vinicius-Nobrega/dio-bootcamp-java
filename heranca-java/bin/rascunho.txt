@@ -1,0 +1,30 @@
+Herança 
+Associação
+interface
+
+Herança : "É o relacionamento entre classes em que uma classe chamada de subclasse 
+(classe filha, classe derivada) é uma extensão, um subtipo, de outra classe chamada de superclasse 
+(classe pai, classe mãe, classe base). Devido a isto, a subclasse consegue
+reaproveitar os atributos e métodos dela. Além dos que 
+venham a ser herdados, a subclasse pode definir
+seus próprios membros."
+
+Herança existe para criar subtipos
+
+Java
+a classe A está erdando a classe B, A é um subtipo de B.
+class A extends B {
+
+}
+
+Tipos de herança: 
+
+tipo simples :
+
+A classe filha tem só uma classe mãe
+
+tipo Múltipla:
+
+A classe filha tem uma ou mais classes mãe
+
+Java não tem herança Múltipla
