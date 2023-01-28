@@ -1,0 +1,23 @@
+Associação :
+
+"Possibilita um relacionamento entre classes/objetos, 
+no qual estes possam pedir ajuda a outras classes/objetos 
+e representar de forma completa o conceito ao qual se destinam. 
+Neste tipo de relacionamento, as classes e os objetos interagem entre 
+si para atingir seus objetivos."
+
+Tipos:
+Estrutural - está ligado com os atributos
+- Composição - Se um objeto deixar de outros, outros vinculos a ele, também deixa
+- Agregação - Um objeto pode exister sem o outro
+
+Comportamental - está ligado com o método
+- Dependência 
+class Compra {
+  ...
+  // recebendo como parametro um objetivos do tipo cupom
+  finalizar(Cupom cupom, ...) {
+   ...
+  }
+}
+

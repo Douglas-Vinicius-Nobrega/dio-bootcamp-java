@@ -20,6 +20,7 @@ class RodarAplicacao {
 
         System.out.println("");
 
+        // sobrescrita
         ClasseFilho2 classeFilho2 = new ClasseFilho2();
         classeFilho2.metodo2();
     }
