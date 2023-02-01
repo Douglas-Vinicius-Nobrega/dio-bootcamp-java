@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class MetodosPart1 {
@@ -29,9 +31,51 @@ public class MetodosPart1 {
 
         System.out.println("Confira se a nota 5.0 está na lista: " + notas.contains(5d)); // contains retorna um valor booleano
 
-        System.out.println("Exiba todas as notas na ordem em que foram informados: ");
+        /*System.out.println("Exiba todas as notas na ordem em que foram informados: ");
         for (Double nota : notas) {
             System.out.println(nota);
+        } */
+
+        System.out.println("Exiba a terceira nota adicionada: " + notas.get(2)); // indicando a posição na array
+        System.out.println(notas.toString());
+
+        System.out.println("Exiba a menor nota: " + Collections.min(notas)); // usando um método do collection para identificar a menor nota
+        System.out.println("Exiba a menor nota: " + Collections.max(notas)); // usando um método do collection para identificar a maior nota
+
+        System.out.println("Exiba a soma dos valores: " );
+        Iterator<Double> iterator = notas.iterator(); // variavel do padrão interator
+        Double soma = 0d;
+        while (iterator.hasNext()) { // verifica se tem elemento, se tiver retorna true
+            Double next = iterator.next(); // adiciona esse elemento dentro dessa variavel
+            soma += next; // soma dos elemento
         }
+
+        System.out.println("Soma dos valores: " + soma);
+
+        System.out.println("Exiba a média das notas: " + (soma/notas.size())); // metodo size, é a quantidade de itens dentro do vetor
+
+        System.out.println("Remova a nota 1: ");
+        notas.remove(1d); // removendo o elemento 0
+        System.out.println(notas);
+
+        System.out.println("Remova a nota na posição 5: ");
+        notas.remove(5); // removendo a nota na posição 5
+        System.out.println(notas);
+
+        System.out.println("Remova notas menores que 7 e exiba a lista: ");
+        Iterator<Double> iterator1 = notas.iterator();
+
+        while (iterator1.hasNext()) {
+            Double next = iterator1.next();
+            if (next < 7) iterator1.remove();
+        }
+        System.out.println(notas);
+
+        System.out.println("Apague toda a lista");
+        notas.clear(); // apaga toda o vetor
+        System.out.println(notas);
+
+        System.out.println("Confira se a lista está vazia: " + notas.isEmpty()); // irá retorna true se estiver vázia e false se não
+
     }
 }
