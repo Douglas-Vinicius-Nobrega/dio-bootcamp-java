@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algoritmo-par-impar/Algoritmo-par-impar.iml" filepath="$PROJECT_DIR$/Algoritmo-par-impar/Algoritmo-par-impar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Consoantes/Consoantes.iml" filepath="$PROJECT_DIR$/Consoantes/Consoantes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModulePart1/ModulePart1.iml" filepath="$PROJECT_DIR$/ModulePart1/ModulePart1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO/POO.iml" filepath="$PROJECT_DIR$/POO/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Usando-terminal/Usando-terminal.iml" filepath="$PROJECT_DIR$/Usando-terminal/Usando-terminal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algoritmo-maior-media/algoritmo-maior-media.iml" filepath="$PROJECT_DIR$/algoritmo-maior-media/algoritmo-maior-media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays-multidimensional/arrays-multidimensional.iml" filepath="$PROJECT_DIR$/arrays-multidimensional/arrays-multidimensional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dio-bootcamp-java.iml" filepath="$PROJECT_DIR$/.idea/dio-bootcamp-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fatorial/fatorial.iml" filepath="$PROJECT_DIR$/fatorial/fatorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heranca-java/heranca-java.iml" filepath="$PROJECT_DIR$/heranca-java/heranca-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loops/src/loops.iml" filepath="$PROJECT_DIR$/loops/src/loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loops/loops1.iml" filepath="$PROJECT_DIR$/loops/loops1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metodos-java/metodos-java.iml" filepath="$PROJECT_DIR$/metodos-java/metodos-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/numeros-aleatorios/numeros-aleatorios.iml" filepath="$PROJECT_DIR$/numeros-aleatorios/numeros-aleatorios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/objetos/objetos.iml" filepath="$PROJECT_DIR$/objetos/objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pacotes/pacotes.iml" filepath="$PROJECT_DIR$/pacotes/pacotes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sistema-smart-tv/sistema-smart-tv.iml" filepath="$PROJECT_DIR$/sistema-smart-tv/sistema-smart-tv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sobrecargas/sobrecargas.iml" filepath="$PROJECT_DIR$/sobrecargas/sobrecargas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tabuada/tabuada.iml" filepath="$PROJECT_DIR$/tabuada/tabuada.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visibilidade/visibilidade.iml" filepath="$PROJECT_DIR$/visibilidade/visibilidade.iml" />
+    </modules>
+  </component>
+</project>
