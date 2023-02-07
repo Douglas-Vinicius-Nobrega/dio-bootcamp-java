@@ -35,8 +35,20 @@ public class OrdencaoList {
 
 
         System.out.println("--\tOrdem de idade\t---");
+        // Collections.sort(meusGasto, new ComparatorIdade());
+        meusGasto.sort(new ComparatorIdade());
+        System.out.println(meusGasto);
+
 
         System.out.println("--\tOrdem de cor\t---");
+        meusGasto.sort(new ComparatorCor());
+        System.out.println(meusGasto);
+
+        System.out.println("--\tOrdem de Nome/Cor/Idade\t---");
+        meusGasto.sort(new ComparatorNomeCorIdade());
+        System.out.println(meusGasto);
+
+
     }
 }
 
@@ -75,5 +87,35 @@ class Gato implements Comparable<Gato> { // implemento uma interface
     @Override
     public int compareTo(Gato gato) { // interface compareTo
         return this.getNome().compareToIgnoreCase(gato.getNome());
+    }
+}
+
+class ComparatorIdade implements Comparator<Gato> {
+
+    @Override
+    public int compare(Gato g1, Gato g2) {
+        return Integer.compare(g1.getIdade(), g2.getIdade());
+    }
+}
+
+class ComparatorCor implements  Comparator<Gato> {
+
+    @Override
+    public int compare(Gato g1, Gato g2) {
+        return g1.getCor().compareToIgnoreCase(g2.getCor());
+    }
+}
+
+class ComparatorNomeCorIdade implements Comparator<Gato> {
+
+    @Override
+    public int compare(Gato g1, Gato g2) {
+        int nome = g1.getNome().compareToIgnoreCase(g2.getNome());
+        if(nome != 0) return nome;
+
+        int cor = g1.getCor().compareToIgnoreCase(g2.getCor());
+        if(cor != 0) return cor;
+
+        return Integer.compare(g1.getIdade(), g2.getIdade());
     }
 }
